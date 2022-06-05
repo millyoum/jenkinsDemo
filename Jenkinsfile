@@ -16,13 +16,13 @@ pipeline {
                 script {
                     def dateFormat = new SimpleDateFormat("yyMMddHHmm")
                     def date = new Date()
-                    def TODAY = dateFormat.format(date)
+                    Today = dateFormat.format(date)
                 }
             }
         }
         stage('Print today') {
             steps {
-                echo TODAY
+                echo Today
             }
         }
     }
