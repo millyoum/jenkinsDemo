@@ -11,7 +11,7 @@ pipeline {
                 echo 'Building..'
             }
         }        
-        stage('test') {
+        stage('get date and time') {
             steps {
                 script {
                     def dateFormat = new SimpleDateFormat("yyMMddHHmm")
