@@ -5,12 +5,7 @@ pipeline {
         label "demoAgent"
     }
 
-    stages {
-        stage('Build') {
-            steps {
-                echo 'Building..'
-            }
-        }        
+ 
         stage('get date and time') {
             steps {
                 script {
