@@ -7,12 +7,6 @@ pipeline {
     stages {
         
         
-        stage('Build') {
-            steps {
-                echo 'Building.'
-            }
-        }  
-        
         
         stage('get date and time') {
             steps {
